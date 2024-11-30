@@ -2,7 +2,7 @@ handwrite --debug-directory ./debug/ --sheet-version 2.0.0               --desig
 handwrite --debug-directory ./debug/ --sheet-version 2.0.0 --license cc0 --designer "nasa Topo" --filename "nasin sitelen musi tan nasa Topo" ./nasin-sitelen-musi-tan-nasa-Topo-sv2.0.0.png ./
 handwrite --debug-directory ./debug/ --sheet-version 2.0.0 --license ofl --designer "jan Majeka" --filename "sitelen Majeka pi alasa wan taso" ./sitelen-Majeka-pi-alasa-wan-taso-sv2.0.0.png ./
 handwrite --debug-directory ./debug/ --sheet-version 2.2.2 --license cc0 --designer "jan Ketesi" --filename "sitelen Ketesi nasa" ./sitelen-Ketesi-nasa-sv2.2.2.png ./
-handwrite --debug-directory ./debug/ --sheet-version 2.2.3 --license ofl --designer "waso Keli" --filename "linja open tan waso Keli" ./linja-open-tan-waso-Keli-sv2.2.3.png ./ --other-words "_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ Keli"
+handwrite --debug-directory ./debug/ --sheet-version 2.2.3 --license ofl --designer "waso Keli" --filename "linja open tan waso Keli" ./linja-open-tan-waso-Keli-sv2.2.3.png ./ --other-words "a _ _ _ _ _ _ akesi _ _ lape _ _ meso mi moku Keli luka noka _ lukin laso"
 handwrite --debug-directory ./debug/ --sheet-version 3.0.0 --license cc0 --designer "ilo Popsie" --filename "sitelen pi suwi nasa tan ilo Popsie" ./sitelen-pi-suwi-nasa-tan-ilo-Popsie-sv3.0.0.png ./ --other-words "_ _ _ _ _ kiki ki nele Popsie"
 handwrite --debug-directory ./debug/ --sheet-version 3.0.0 --license cc0 --designer "jan Nopu" --filename "sitelen linja tan jan Nopu" ./sitelen-linja-tan-jan-Nopu-sv3.0.0.png ./ --other-words "_ namako2 mama2 majuna2 _ sewi2 mi2 sina2 ona2 olin2 isipin mu2 _ kule2 uta2 ka jaki2 jaki3 ko2 ko3 kiwen2 kokosila soto teje apeja"
 handwrite --debug-directory ./debug/ --sheet-version 3.0.0 --license ofl --designer "akesi Kilo" --filename "sitelen luka Kilo" ./sitelen-luka-Kilo-sv3.0.0.png ./
@@ -18,5 +18,6 @@ handwrite --debug-directory ./debug/ --sheet-version 3.0.0 --license ofl --desig
 handwrite --debug-directory ./debug/ --sheet-version 3.0.2 --license ofl --designer "kulupu seli" --filename "sitelen seli luka tan kulupu seli" ./sitelen-seli-luka-tan-kulupu-seli-sv3.0.2.png ./ --other-words "_ sewi2"
 handwrite --debug-directory ./debug/ --sheet-version 3.0.3 --license ofl --designer "kasi Lija" --filename "kasi linja tan kasi Lija" ./kasi-linja-tan-kasi-Lija-sv3.0.3.png ./ --other-words "_ _ _ _ _ ni2 ni3 ni4 ni5 ni6 ni7 ni8 _ sewi2"
 handwrite --debug-directory ./debug/ --sheet-version 3.0.4 --license ofl --designer "jan Jami" --filename "sitelen jami tan jan jami" .\sitelen-jami-tan-jan-Jami-sv3.0.4.png ./ --other-words "_ _ _ _ _ ka jami Jami"
+handwrite --debug-directory ./debug/ --sheet-version 3.0.4 --license ofl --designer "meli usawi" --filename "sitelen nasa tan meli usawi" ./sitelen-nasa-tan-meli-usawi-sv3.0.4.jpg ./ --other-words "_ _ _ _ _ _ _ _ _ _ _ _ _ _ wa _ _ usawi"
 rem for PowerShell, prepend this: cd C:/Users/Kelly/Documents/GitHub/wasokeli.github.io/sp-font-maker/
 rem in Sublime Text, Edit > Sort Lines (F9) to alphabetize
