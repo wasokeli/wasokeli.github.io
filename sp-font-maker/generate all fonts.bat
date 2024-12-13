@@ -26,4 +26,5 @@ handwrite --debug-directory ./debug/ --sheet-version 3.0.4 --license ofl --desig
 handwrite --debug-directory ./debug/ --sheet-version 3.0.4 --license ofl --designer "meli Siliwa" --filename "loje meli" ./loje-meli-tan-meli-Siliwa-sv3.0.4.png ./ --other-words "_ monsi2 sinpin2 sewi2 _ san jami penpo jupi kana me ka _ meliSiliwa Stella Majeka Misi Nemona Sesimiku Manka Vivi Ipan Kaken Selupu kijesankalu"
 handwrite --debug-directory ./debug/ --sheet-version 3.0.4 --license ofl --designer "meli usawi" --filename "sitelen nasa tan meli usawi" ./sitelen-nasa-tan-meli-usawi-sv3.0.4.jpg ./ --other-words "_ mije _ _ _ _ _ _ _ _ _ _ _ _ wa _ _ usawi"
 rem for PowerShell, prepend this: cd C:/Users/Kelly/Documents/GitHub/wasokeli.github.io/sp-font-maker/
+rem handwrite --debug-directory ./debug/ --sheet-version 3.0.4 --license ofl --designer "mu Esitense usawi" --filename "sitelen Esi" ./sitelen-Esi-tan-mu-Esitense-usawi-sv3.0.4.png ./ --other-words " _ usawi mu2 nja _ iseki saja san po kiki powe apeja _ mute2 aku ete kokosila pata ka jule kalama2 yutu nimisin apelo sewi2"
 rem in Sublime Text, Edit > Sort Lines (F9) to alphabetize
