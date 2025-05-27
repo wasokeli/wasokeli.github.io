@@ -58,6 +58,7 @@ handwrite --debug-directory ./debug/ --sheet-version 3.0.4 --license ofl --desig
 handwrite --debug-directory ./debug/ --sheet-version 3.0.4 --license ofl --designer "jan pi kili mun" --filename "Lilintawa" ./Lilintawa-tan-jan-pi-kili-mun-sv3.0.4.jpeg ./ --other-words "_ _ _ _ _ _ _ _ _ _ owe"
 handwrite --debug-directory ./debug/ --sheet-version 3.0.4 --license ofl --designer "ijo Kesi" --filename "leko kili tan ijo Kesi" ./leko-kili-tan-ijo-Kesi-sv3.0.4.png ./ --other-words "_ _ _ _ _ meli2 mije2 sewi2 mute2 sinpin2 monsi2 poka2 _ kokosila yupekosi apeja eliki misikeke2 kiki isipin pake powe Pingo" --pixel
 handwrite --debug-directory ./debug/ --sheet-version 3.0.4 --license ofl --designer "jan Erd" --filename "sitelen Erd" ./sitelen-Erd-sv3.0.4.png ./
+handwrite --debug-directory ./debug/ --sheet-version 3.0.4 --license ofl --designer "akesi Sami en jan Poman" --filename "sitelen pona pi lukin Manka" ./sitelen-pona-pi-lukin-Manka-sv3.0.4px.png ./ --other-words "_ _ _ _ _ _ _ kokosila pake apeja _ _ _ oke omekapo wekama _ wa nja kulijo _ _ kamalawala usawi Kekansan" --pixel
 rem for PowerShell, prepend this: cd C:/Users/Kelly/Documents/GitHub/wasokeli.github.io/sp-font-maker/
 rem handwrite --debug-directory ./debug/ --sheet-version 3.0.4 --license ofl --designer "mu Esitense usawi" --filename "sitelen Esi" ./sitelen-Esi-tan-mu-Esitense-usawi-sv3.0.4.png ./ --other-words " _ usawi mu2 nja _ iseki saja san po kiki powe apeja _ mute2 aku ete kokosila pata ka jule kalama2 yutu nimisin apelo sewi2"
 rem in Sublime Text, Edit > Sort Lines (F9) to alphabetize
