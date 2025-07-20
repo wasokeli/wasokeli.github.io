@@ -16,3 +16,5 @@ optional for cleaning up a bunch of stray black pixels:
 5. set Action from "Erosion" to "Closing"
 6. set Kernel from "Square" to "Circular"
 7. set Size to 2, or like 5 maybe. bigger numbers delete bigger blobs of pixels, but also delete thin strokes
+
+note that the Threshold filter removes antialiasing, making the resulting font look kinda pixelated. it's probably possible to avoid this, but i'm not sure how!
