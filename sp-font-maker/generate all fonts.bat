@@ -119,5 +119,6 @@ handwrite --debug-directory ./debug/ --sheet-version 3.0.4 --license ofl --desig
 handwrite --debug-directory ./debug/ --sheet-version 4.0   --license cc0 --designer "jan Wasopimeja"     --filename linja-tenpo-tan-jan-Wasopimeja ./linja-tenpo-tan-jan-Wasopimeja-v4.0.png --family "linja tenpo" ./ --other-words "_ _ _ _ _ kana eliki pika puwa"
 handwrite --debug-directory ./debug/ --sheet-version 4.0   --license ofl --designer "kijetesantakalu Nawili" --filename sitelen-Sepi-tan-kijetesantakalu-Nawili ./sitelen-Sepi-tan-kijetesantakalu-Nawili-v4.0.png --family "sitelen Sepi" ./ --other-words "alu ke oki oke linluwi oke oki2 ke2 je lo ja teken ta powe kije usawi mu2 psyweli sikako molusa jonke puwa r pake"
 handwrite --debug-directory ./debug/ --sheet-version 4.0   --license cc0 --designer "pan Nuto"           --filename sitelen-pi-pan-Nuto ./pan-Nuto-v4.0.png --family "sitelen pi pan Nuto" ./ --other-words "_ pali nja r _ kisa losa mipa"
+handwrite --debug-directory ./debug/ --sheet-version 4.0   --license ofl --designer "pan Nuto"           --filename sitelen-pan-pali-tan-pan-Nuto ./sitelen-pan-pali-tan-pan-Nuto-v4.0.png --family "sitelen pan pali" ./ --other-words "_ r palo nja _ waken"
 rem for PowerShell, prepend this: cd C:/Users/Kelly/Documents/GitHub/wasokeli.github.io/sp-font-maker/
 rem in Sublime Text, Edit > Sort Lines (F9) to alphabetize
