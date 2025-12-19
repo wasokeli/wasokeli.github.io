@@ -121,5 +121,7 @@ handwrite --debug-directory ./debug/ --sheet-version 4.0   --license cc0 --desig
 handwrite --debug-directory ./debug/ --sheet-version 4.0   --license ofl --designer "akesi Jesi"         --filename "JCs Font SP" .\JCs-font-SP-sv4.0.png ./ --other-words "_ jume Jesi usawi   _ isipin jami powe kiki oke omekapo misa   _ sutopatikuna kamalawala konwe kulijo"
 handwrite --debug-directory ./debug/ --sheet-version 3.0.4 --license ofl --designer "jan Pikesike"       --filename sitelen-pona-pi-kipisi-mute-luka-luka-tan-jan-Pikesike ./sitelen-pona-pi-kipisi-mute-luka-luka-tan-jan-Pikesike-sv3.0.4.png --family "sitelen pona pi kipisi mute luka luka" ./ --other-words "_ kalama2 epiku2 linluwi2   _ linluwi3 namako2 mute2 toki+pona nimisin powe dotdot   _ full ni2 Pikesike usawi nanpa2 nasin2 o2 olin2 sewi2 waso2 waso3 dotdotdot" --pixel
 handwrite --debug-directory ./debug/ --sheet-version 4.0   --license ofl --designer "ijo Jewiko"         --filename "linja pi ilo suno tan ilo Jewiko" ./linja-pi-ilo-suno-tan-ilo-Jewiko-sv4.0.png ./ --other-words "_ _ _ _ _ kokosila"
+handwrite --debug-directory ./debug/ --sheet-version 4.0   --license cc0 --designer "soweli mu"          --filename "soweli mu tan soweli mu" .\soweli-mu-tan-soweli-mu-contrast-sv4.0.jpg ./ --other-words "_ _ _ _   _ unu kapesi _ _ pan" 
+
 rem for PowerShell, prepend this: cd C:/Users/Kelly/Documents/GitHub/wasokeli.github.io/sp-font-maker/
 rem in Sublime Text, Edit > Sort Lines (F9) to alphabetize
