@@ -145,6 +145,7 @@ handwrite --debug-directory ./debug/ --sheet-version 4     --license ofl --desig
 handwrite --debug-directory ./debug/ --sheet-version 4.0   --license ofl --designer "pan Wakelelu"       --family "sitelen melon pan"               .\sitelen-melon-pan-tan-pan-Wakelelu.png ./ --other-words "_ _ _ _   _ anpa" 
 handwrite --debug-directory ./debug/ --sheet-version 4.0   --license ofl --designer "pakala Mapuju"      --family "sitelen ike tan pakala Mapuju"   .\sitelen-ike-tan-pakala-Mapuju.png ./ --other-words "_ ma ala _   _ namako2/namako02" 
 handwrite --debug-directory ./debug/ --sheet-version 4.0   --license ofl --designer "soweli Pulejamotelu" --family "sitelen jan sewi nasa tan soweli Pulejamotelu" .\sitelen-jan-sewi-nasa-tan-soweli-Pulejamotelu.png ./ --other-words "_ Greet/toki2 jami _   _ North/noma East/lenka South/weta Sibling/mimi mine/min your/yours/sinan" 
+handwrite --debug-directory ./debug/ --sheet-version 4.0   --license ofl --designer "jan Niki"           --family "leko Niki"                       .\leko-Niki.png ./ --other-words "_ kokosila san po   _ ni02/ni> ni03/ni^ ni04/ni< _ [. [.. _   _ moli kiki/kiki1/kiki01 kiki2/kiki02 _ _ _ _ _ _ _ _ Niki" --pixel
 
 rem For PowerShell, prepend this: cd C:/Users/Kelly/Documents/GitHub/wasokeli.github.io/sp-font-maker/
 rem In Sublime Text, Edit > Sort Lines (F9) to alphabetize
