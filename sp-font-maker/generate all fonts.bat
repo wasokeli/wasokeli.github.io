@@ -156,6 +156,7 @@ handwrite --debug-directory ./debug/ --sheet-version 5     --license ofl --desig
 handwrite --debug-directory ./debug/ --sheet-version 5     --license ofl --designer "jan Maku/Makopi"    --family "sitelen pi tenpo kama suli tan jan Maku" .\sitelen-pi-tenpo-kama-suli-tan-jan-Maku.png ./ --other-words "_ Keli   _ kiki kokosila kulijo likujo pika misa toki+pona/toki&pona sitelen+pona/sitelen&pona   _ ku su teju puwa powe san po usawi taki pake wa kulupu2/kulupu&kulupu&kulupu&kulupu" 
 handwrite --debug-directory ./debug/ --sheet-version 4.0   --license ofl --designer "jan Kalion"         --family "li ku ma"                        .\li-ku-ma-tan-jan-Kalion.png ./ --other-words "_ _ _ _   _ lu mu2 la2 pa pi2 pu2 ta   _ ti ka ki ku yu/ju" --pixel
 handwrite --debug-directory ./debug/ --sheet-version 5     --license ofl --designer "pan Nuto"           --family "sitelen pan waso tan pan Nuto"   .\sitelen-pan-waso-tan-pan-Nuto.png ./ --other-words "_ nja   _ kin2 anpa2 sewi2 jaki2 jaki3 san unu ku   _ powe powe2 weka2 mu2 jonke Amanka lon2" 
+handwrite --debug-directory ./debug/ --sheet-version 4     --license cc0 --designer "nasa Nasa"          --family "7x7 sitelen pona tan nasa Nasa"  .\7x7-sitelen-pona-tan-nasa-Nasa.png ./ --other-words "_ apeja isipin jami   _ unu kapesi kiki kokosila soto kulijo melome   _ mijomi misa nja teje oki omekapo owe pika po powe puwa san" --pixel
 
 rem For PowerShell, prepend this: cd C:/Users/Kelly/Documents/GitHub/wasokeli.github.io/sp-font-maker/
 rem In Sublime Text, Edit > Sort Lines (F9) to alphabetize
