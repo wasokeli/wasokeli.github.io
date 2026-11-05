@@ -1,0 +1,734 @@
+
+<meta charset="utf-8" />
+<style type="text/css">
+    @font-face {
+        font-family: 'linja Winsi';
+        src: url('linja-Winsi.ttf')
+    }
+    body {
+        background-color: #334;
+        font-size: 48px;
+        /*font-size: 32px;*/ /* for slideshow */
+        max-width: 960px;    /* 48 x 20 */
+        margin: auto;
+        /*line-height: 1.5em;*/
+        color: white;
+        font-family: "Chalkboard SE", "Comic Sans MS", sans-serif;
+    }
+    h1 {
+        font-size: 1em;
+        /*margin-bottom: 0;*/ /* for slideshow */
+    }
+    a {
+        color: white;
+    }
+    .tp {
+        font-family: 'linja Winsi', 'Chalkboard SE', 'Comic Sans MS', sans-serif;
+        font-size: 48px;
+    }
+    .word-list {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+        align-content: flex-start;
+    }
+    .word {
+        width: 48px;
+        text-align: left;
+    }
+    .label {
+        font-family: 'Chalkboard SE', 'Comic Sans MS', sans-serif;
+        font-size: 16px;
+        min-height: 48px;
+        width: 48px;
+        display: inline-block;
+        opacity: 0.5;
+        overflow-wrap: break-word;
+        text-align: center;
+    }
+    .hidden.label {
+        display: none;
+    }
+    .license-and-checkbox {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .checkbox {
+        font-size: 16px;
+        opacity: 0.5;
+    }
+    textarea {
+        font-size: 1em;
+        width: 20em;
+        height: 100%;
+        background-color: #223;
+        color: white;
+        padding: 1em;
+    }
+</style>
+<h1><a href='linja-Winsi.ttf'>linja Winsi</a>, tan soweli Pijuku</h1>
+<!-- vertical test -->
+<!-- <p class="tp" style="writing-mode: vertical-rl; font-feature-settings: 'calt';"> -->
+<!-- 󱤴󱤑󱦐󱥠󱦜󱤑󱦜󱤧󱦝󱦑<br> -->
+<!-- 「󱤴󱥠󱤉󱥁󱥧󱥚󱥩󱤅」<br> -->
+<!-- </p> -->
+<span class="tp">
+    <!-- word list -->
+    <div class="word-list">
+        <div class="word">a<br><span class="hidden label">a</span></div>
+        <div class="word">akesi<br><span class="hidden label">akesi</span></div>
+        <div class="word">ala<br><span class="hidden label">ala</span></div>
+        <div class="word">alasa<br><span class="hidden label">alasa</span></div>
+        <div class="word">ale<br><span class="hidden label">ale</span></div>
+        <div class="word">anpa<br><span class="hidden label">anpa</span></div>
+        <div class="word">ante<br><span class="hidden label">ante</span></div>
+        <div class="word">anu<br><span class="hidden label">anu</span></div>
+        <div class="word">awen<br><span class="hidden label">awen</span></div>
+        <div class="word">e<br><span class="hidden label">e</span></div>
+        <div class="word">en<br><span class="hidden label">en</span></div>
+        <div class="word">esun<br><span class="hidden label">esun</span></div>
+        <div class="word">ijo<br><span class="hidden label">ijo</span></div>
+        <div class="word">ike<br><span class="hidden label">ike</span></div>
+        <div class="word">ilo<br><span class="hidden label">ilo</span></div>
+        <div class="word">insa<br><span class="hidden label">insa</span></div>
+        <div class="word">jaki<br><span class="hidden label">jaki</span></div>
+        <div class="word">jan<br><span class="hidden label">jan</span></div>
+        <div class="word">jelo<br><span class="hidden label">jelo</span></div>
+        <div class="word">jo<br><span class="hidden label">jo</span></div>
+        <div class="word">kala<br><span class="hidden label">kala</span></div>
+        <div class="word">kalama<br><span class="hidden label">ka&shy;lama</span></div>
+        <div class="word">kama<br><span class="hidden label">kama</span></div>
+        <div class="word">kasi<br><span class="hidden label">kasi</span></div>
+        <div class="word">ken<br><span class="hidden label">ken</span></div>
+        <div class="word">kepeken<br><span class="hidden label">kepe&shy;ken</span></div>
+        <div class="word">kili<br><span class="hidden label">kili</span></div>
+        <div class="word">kiwen<br><span class="hidden label">kiwen</span></div>
+        <div class="word">ko<br><span class="hidden label">ko</span></div>
+        <div class="word">kon<br><span class="hidden label">kon</span></div>
+        <div class="word">kule<br><span class="hidden label">kule</span></div>
+        <div class="word">kulupu<br><span class="hidden label">ku&shy;lupu</span></div>
+        <div class="word">kute<br><span class="hidden label">kute</span></div>
+        <div class="word">la<br><span class="hidden label">la</span></div>
+        <div class="word">lape<br><span class="hidden label">lape</span></div>
+        <div class="word">laso<br><span class="hidden label">laso</span></div>
+        <div class="word">lawa<br><span class="hidden label">lawa</span></div>
+        <div class="word">len<br><span class="hidden label">len</span></div>
+        <div class="word">lete<br><span class="hidden label">lete</span></div>
+        <div class="word">li<br><span class="hidden label">li</span></div>
+        <div class="word">lili<br><span class="hidden label">lili</span></div>
+        <div class="word">linja<br><span class="hidden label">linja</span></div>
+        <div class="word">lipu<br><span class="hidden label">lipu</span></div>
+        <div class="word">loje<br><span class="hidden label">loje</span></div>
+        <div class="word">lon<br><span class="hidden label">lon</span></div>
+        <div class="word">luka<br><span class="hidden label">luka</span></div>
+        <div class="word">lukin<br><span class="hidden label">lukin</span></div>
+        <div class="word">lupa<br><span class="hidden label">lupa</span></div>
+        <div class="word">ma<br><span class="hidden label">ma</span></div>
+        <div class="word">mama<br><span class="hidden label">mama</span></div>
+        <div class="word">mani<br><span class="hidden label">mani</span></div>
+        <div class="word">meli<br><span class="hidden label">meli</span></div>
+        <div class="word">mi<br><span class="hidden label">mi</span></div>
+        <div class="word">mije<br><span class="hidden label">mije</span></div>
+        <div class="word">moku<br><span class="hidden label">moku</span></div>
+        <div class="word">moli<br><span class="hidden label">moli</span></div>
+        <div class="word">monsi<br><span class="hidden label">monsi</span></div>
+        <div class="word">mu<br><span class="hidden label">mu</span></div>
+        <div class="word">mun<br><span class="hidden label">mun</span></div>
+        <div class="word">musi<br><span class="hidden label">musi</span></div>
+        <div class="word">mute<br><span class="hidden label">mute</span></div>
+        <div class="word">nanpa<br><span class="hidden label">nanpa</span></div>
+        <div class="word">nasa<br><span class="hidden label">nasa</span></div>
+        <div class="word">nasin<br><span class="hidden label">nasin</span></div>
+        <div class="word">nena<br><span class="hidden label">nena</span></div>
+        <div class="word">ni<br><span class="hidden label">ni</span></div>
+        <div class="word">nimi<br><span class="hidden label">nimi</span></div>
+        <div class="word">noka<br><span class="hidden label">noka</span></div>
+        <div class="word">o<br><span class="hidden label">o</span></div>
+        <div class="word">olin<br><span class="hidden label">olin</span></div>
+        <div class="word">ona<br><span class="hidden label">ona</span></div>
+        <div class="word">open<br><span class="hidden label">open</span></div>
+        <div class="word">pakala<br><span class="hidden label">pa&shy;kala</span></div>
+        <div class="word">pali<br><span class="hidden label">pali</span></div>
+        <div class="word">palisa<br><span class="hidden label">palisa</span></div>
+        <div class="word">pan<br><span class="hidden label">pan</span></div>
+        <div class="word">pana<br><span class="hidden label">pana</span></div>
+        <div class="word">pi<br><span class="hidden label">pi</span></div>
+        <div class="word">pilin<br><span class="hidden label">pilin</span></div>
+        <div class="word">pimeja<br><span class="hidden label">pi&shy;meja</span></div>
+        <div class="word">pini<br><span class="hidden label">pini</span></div>
+        <div class="word">pipi<br><span class="hidden label">pipi</span></div>
+        <div class="word">poka<br><span class="hidden label">poka</span></div>
+        <div class="word">poki<br><span class="hidden label">poki</span></div>
+        <div class="word">pona<br><span class="hidden label">pona</span></div>
+        <div class="word">pu<br><span class="hidden label">pu</span></div>
+        <div class="word">sama<br><span class="hidden label">sama</span></div>
+        <div class="word">seli<br><span class="hidden label">seli</span></div>
+        <div class="word">selo<br><span class="hidden label">selo</span></div>
+        <div class="word">seme<br><span class="hidden label">seme</span></div>
+        <div class="word">sewi<br><span class="hidden label">sewi</span></div>
+        <div class="word">sijelo<br><span class="hidden label">sijelo</span></div>
+        <div class="word">sike<br><span class="hidden label">sike</span></div>
+        <div class="word">sin<br><span class="hidden label">sin</span></div>
+        <div class="word">sina<br><span class="hidden label">sina</span></div>
+        <div class="word">sinpin<br><span class="hidden label">sin&shy;pin</span></div>
+        <div class="word">sitelen<br><span class="hidden label">sitelen</span></div>
+        <div class="word">sona<br><span class="hidden label">sona</span></div>
+        <div class="word">soweli<br><span class="hidden label">soweli</span></div>
+        <div class="word">suli<br><span class="hidden label">suli</span></div>
+        <div class="word">suno<br><span class="hidden label">suno</span></div>
+        <div class="word">supa<br><span class="hidden label">supa</span></div>
+        <div class="word">suwi<br><span class="hidden label">suwi</span></div>
+        <div class="word">tan<br><span class="hidden label">tan</span></div>
+        <div class="word">taso<br><span class="hidden label">taso</span></div>
+        <div class="word">tawa<br><span class="hidden label">tawa</span></div>
+        <div class="word">telo<br><span class="hidden label">telo</span></div>
+        <div class="word">tenpo<br><span class="hidden label">tenpo</span></div>
+        <div class="word">toki<br><span class="hidden label">toki</span></div>
+        <div class="word">tomo<br><span class="hidden label">tomo</span></div>
+        <div class="word">tu<br><span class="hidden label">tu</span></div>
+        <div class="word">unpa<br><span class="hidden label">unpa</span></div>
+        <div class="word">uta<br><span class="hidden label">uta</span></div>
+        <div class="word">utala<br><span class="hidden label">utala</span></div>
+        <div class="word">walo<br><span class="hidden label">walo</span></div>
+        <div class="word">wan<br><span class="hidden label">wan</span></div>
+        <div class="word">waso<br><span class="hidden label">waso</span></div>
+        <div class="word">wawa<br><span class="hidden label">wawa</span></div>
+        <div class="word">weka<br><span class="hidden label">weka</span></div>
+        <div class="word">wile<br><span class="hidden label">wile</span></div>
+        <div class="word">[<br><span class="hidden label">[</span></div>
+        <div class="word">]<br><span class="hidden label">]</span></div>
+        <div class="word">.<br><span class="hidden label">.</span></div>
+        <div class="word">:<br><span class="hidden label">:</span></div>
+        <div class="word">|,=<br><span class="hidden label">,</span></div>
+        <div class="word">i<br><span class="hidden label">i</span></div>
+        <div class="word">j<br><span class="hidden label">j</span></div>
+        <div class="word">k<br><span class="hidden label">k</span></div>
+        <div class="word">l<br><span class="hidden label">l</span></div>
+        <div class="word">m<br><span class="hidden label">m</span></div>
+        <div class="word">p<br><span class="hidden label">p</span></div>
+        <div class="word">s<br><span class="hidden label">s</span></div>
+        <div class="word">t<br><span class="hidden label">t</span></div>
+        <div class="word">u<br><span class="hidden label">u</span></div>
+        <div class="word">w<br><span class="hidden label">w</span></div>
+        <div class="word">te<br><span class="hidden label">te</span></div>
+        <div class="word">to<br><span class="hidden label">to</span></div>
+        <div class="word">pi()<br><span class="hidden label">pi()</span></div>
+        <div class="word">apeja<br><span class="hidden label">apeja</span></div>
+        <div class="word">jan02<br><span class="hidden label">jan02</span></div>
+        <div class="word">kijetesantakalu<br><span class="hidden label">kijete&shy;santa&shy;kalu</span></div>
+        <div class="word">kin<br><span class="hidden label">kin</span></div>
+        <div class="word">kipisi<br><span class="hidden label">kipisi</span></div>
+        <div class="word">lanpan<br><span class="hidden label">lan&shy;pan</span></div>
+        <div class="word">leko<br><span class="hidden label">leko</span></div>
+        <div class="word">misikeke<br><span class="hidden label">misi&shy;keke</span></div>
+        <div class="word">monsuta<br><span class="hidden label">mon&shy;suta</span></div>
+        <div class="word">n<br><span class="hidden label">n</span></div>
+        <div class="word">namako<br><span class="hidden label">na&shy;mako</span></div>
+        <div class="word">soko<br><span class="hidden label">soko</span></div>
+        <div class="word">tonsi<br><span class="hidden label">tonsi</span></div>
+        <div class="word">kala02<br><span class="hidden label">kala02</span></div>
+        <div class="word">lawa2<br><span class="hidden label">lawa2</span></div>
+        <div class="word">a03<br><span class="hidden label">a03</span></div>
+        <div class="word">soto<br><span class="hidden label">soto</span></div>
+        <div class="word">kin2<br><span class="hidden label">kin2</span></div>
+        <div class="word">san<br><span class="hidden label">san</span></div>
+        <div class="word">po<br><span class="hidden label">po</span></div>
+        <div class="word">isipin<br><span class="hidden label">isipin</span></div>
+        <div class="word">ka<br><span class="hidden label">ka</span></div>
+        <div class="word">epiku<br><span class="hidden label">epiku</span></div>
+        <div class="word">jasima<br><span class="hidden label">ja&shy;sima</span></div>
+        <div class="word">linluwi<br><span class="hidden label">lin&shy;luwi</span></div>
+        <div class="word">majuna<br><span class="hidden label">ma&shy;juna</span></div>
+        <div class="word">meso<br><span class="hidden label">meso</span></div>
+        <div class="word">oko<br><span class="hidden label">oko</span></div>
+        <div class="word">kamalawala<br><span class="hidden label">kamalawala</span></div>
+        <div class="word">tonsi02<br><span class="hidden label">tonsi02</span></div>
+        <div class="word">kiki01<br><span class="hidden label">kiki01</span></div>
+        <div class="word">kiki02<br><span class="hidden label">kiki02</span></div>
+        <div class="word">kokosila<br><span class="hidden label">koko&shy;sila</span></div>
+        <div class="word">teje<br><span class="hidden label">teje</span></div>
+        <div class="word">meli01<br><span class="hidden label">meli01</span></div>
+        <div class="word">usawi<br><span class="hidden label">usawi</span></div>
+        <div class="word">linluwi01<br><span class="hidden label">linluwi01</span></div>
+        <div class="word">linluwi2<br><span class="hidden label">linluwi2</span></div>
+        <div class="word">ku<br><span class="hidden label">ku</span></div>
+        <div class="word">su<br><span class="hidden label">su</span></div>
+        <div class="word">su02<br><span class="hidden label">su02</span></div>
+        <div class="word">su03<br><span class="hidden label">su03</span></div>
+        <div class="word">anpa-lawa<br><span class="hidden label">anpa-<br>lawa</span></div>
+        <div class="word">anpa-lawa2<br><span class="hidden label">anpa-<br>lawa2</span></div>
+        <div class="word">ijo+ala<br><span class="hidden label">ijo+<br>ala</span></div>
+        <div class="word">ijo&ala<br><span class="hidden label">ijo&<br>ala</span></div>
+        <div class="word">ijo+ale<br><span class="hidden label">ijo+<br>ale</span></div>
+        <div class="word">ijo+anpa<br><span class="hidden label">ijo+<br>anpa</span></div>
+        <div class="word">ijo+esun<br><span class="hidden label">ijo+<br>esun</span></div>
+        <div class="word">ijo+ike<br><span class="hidden label">ijo+<br>ike</span></div>
+        <div class="word">ijo+jaki<br><span class="hidden label">ijo+<br>jaki</span></div>
+        <div class="word">ijo+jaki2<br><span class="hidden label">ijo+<br>jaki2</span></div>
+        <div class="word">ijo+jelo<br><span class="hidden label">ijo+<br>jelo</span></div>
+        <div class="word">ijo+alama<br><span class="hidden label">ijo+<br>alama</span></div>
+        <div class="word">ijo+kipisi<br><span class="hidden label">ijo+<br>kipisi</span></div>
+        <div class="word">ijo+kule<br><span class="hidden label">ijo+<br>kule</span></div>
+        <div class="word">ijo+laso<br><span class="hidden label">ijo+<br>laso</span></div>
+        <div class="word">ijo+lawa<br><span class="hidden label">ijo+<br>lawa</span></div>
+        <div class="word">ijo+len<br><span class="hidden label">ijo+<br>len</span></div>
+        <div class="word">ijo+lete<br><span class="hidden label">ijo+<br>lete</span></div>
+        <div class="word">ijo+lili<br><span class="hidden label">ijo+<br>lili</span></div>
+        <div class="word">ijo+loje<br><span class="hidden label">ijo+<br>loje</span></div>
+        <div class="word">ijo+mi<br><span class="hidden label">ijo+<br>mi</span></div>
+        <div class="word">ijo+monsi<br><span class="hidden label">ijo+<br>monsi</span></div>
+        <div class="word">ijo+monsi2<br><span class="hidden label">ijo+<br>monsi2</span></div>
+        <div class="word">ijo+monsuta<br><span class="hidden label">ijo+<br>monsuta</span></div>
+        <div class="word">ijo+musi<br><span class="hidden label">ijo+<br>musi</span></div>
+        <div class="word">ij+mute<br><span class="hidden label">ij+<br>mute</span></div>
+        <div class="word">ijo&mute<br><span class="hidden label">ijo&<br>mute</span></div>
+        <div class="word">ijo+namako<br><span class="hidden label">ijo+<br>namako</span></div>
+        <div class="word">ijo+nasa<br><span class="hidden label">ijo+<br>nasa</span></div>
+        <div class="word">ijo+ni<br><span class="hidden label">ijo+<br>ni</span></div>
+        <div class="word">ijo-ni<br><span class="hidden label">ijo-<br>ni</span></div>
+        <div class="word">ijo&ni&li&seme<br><span class="hidden label">ijo&<br>ni&<br>li&<br>seme</span></div>
+        <div class="word">ijo+pakala<br><span class="hidden label">ijo+<br>pakala</span></div>
+        <div class="word">ijo&pakala<br><span class="hidden label">ijo&<br>pakala</span></div>
+        <div class="word">ijo+palisa<br><span class="hidden label">ijo+<br>palisa</span></div>
+        <div class="word">ijo+pimeja<br><span class="hidden label">ijo+<br>pimeja</span></div>
+        <div class="word">ijo+poka<br><span class="hidden label">ijo+<br>poka</span></div>
+        <div class="word">ijo+pona<br><span class="hidden label">ijo+<br>pona</span></div>
+        <div class="word">ijo+sama<br><span class="hidden label">ijo+<br>sama</span></div>
+        <div class="word">ijo+seli<br><span class="hidden label">ijo+<br>seli</span></div>
+        <div class="word">ijo+seme<br><span class="hidden label">ijo+<br>seme</span></div>
+        <div class="word">ijo+sewi<br><span class="hidden label">ijo+<br>sewi</span></div>
+        <div class="word">ijo+sewi01<br><span class="hidden label">ijo+<br>sewi01</span></div>
+        <div class="word">ijo+sin<br><span class="hidden label">ijo+<br>sin</span></div>
+        <div class="word">ijo+sina<br><span class="hidden label">ijo+<br>sina</span></div>
+        <div class="word">ijo+sinpin<br><span class="hidden label">ijo+<br>sinpin</span></div>
+        <div class="word">ijo+sinpin2<br><span class="hidden label">ijo+<br>sinpin2</span></div>
+        <div class="word">ijo+sitelen<br><span class="hidden label">ijo+<br>sitelen</span></div>
+        <div class="word">ijo+sona<br><span class="hidden label">ijo+<br>sona</span></div>
+        <div class="word">ijo+suli<br><span class="hidden label">ijo+<br>suli</span></div>
+        <div class="word">ijo+suwi<br><span class="hidden label">ijo+<br>suwi</span></div>
+        <div class="word">ijo+tan<br><span class="hidden label">ijo+<br>tan</span></div>
+        <div class="word">ijo+tawa<br><span class="hidden label">ijo+<br>tawa</span></div>
+        <div class="word">ijo+toki<br><span class="hidden label">ijo+<br>toki</span></div>
+        <div class="word">ijo+tonsi<br><span class="hidden label">ijo+<br>tonsi</span></div>
+        <div class="word">ijo+tu<br><span class="hidden label">ijo+<br>tu</span></div>
+        <div class="word">|<br><span class="hidden label"> </span></div>
+        <div class="word">ijo+wan<br><span class="hidden label">ijo+<br>wan</span></div>
+        <div class="word">ijo+wawa<br><span class="hidden label">ijo+<br>wawa</span></div>
+        <div class="word">kijetesantakalu-soweli<br><span class="hidden label">kijetesantakalu-<br>soweli</span></div>
+        <div class="word">ike-ala<br><span class="hidden label">ike-<br>ala</span></div>
+        <div class="word">ike&ala<br><span class="hidden label">ike&<br>ala</span></div>
+        <div class="word">ike-lili<br><span class="hidden label">ike-<br>lili</span></div>
+        <div class="word">ike-lukin<br><span class="hidden label">ike-<br>lukin</span></div>
+        <div class="word">ike-mute<br><span class="hidden label">ike-<br>mute</span></div>
+        <div class="word">ilo-ala<br><span class="hidden label">ilo-<br>ala</span></div>
+        <div class="word">ilo&ala<br><span class="hidden label">ilo&<br>ala</span></div>
+        <div class="word">ilo-kipisi<br><span class="hidden label">ilo-<br>kipisi</span></div>
+        <div class="word">ilo-lukin<br><span class="hidden label">ilo-<br>lukin</span></div>
+        <div class="word">ilo-musi<br><span class="hidden label">ilo-<br>musi</span></div>
+        <div class="word">ilo-nanpa<br><span class="hidden label">ilo-<br>nanpa</span></div>
+        <div class="word">ilo-oko<br><span class="hidden label">ilo-<br>oko</span></div>
+        <div class="word">ilo-toki<br><span class="hidden label">ilo-<br>toki</span></div>
+        <div class="word">ilo-tu<br><span class="hidden label">ilo-<br>tu</span></div>
+        <div class="word">ilo-wan<br><span class="hidden label">ilo-<br>wan</span></div>
+        <div class="word">ilo-wawa<br><span class="hidden label">ilo-<br>wawa</span></div>
+        <div class="word">ilo-weka<br><span class="hidden label">ilo-<br>weka</span></div>
+        <div class="word">jan+ala<br><span class="hidden label">jan+<br>ala</span></div>
+        <div class="word">jan&ala<br><span class="hidden label">jan&<br>ala</span></div>
+        <div class="word">jan+alasa<br><span class="hidden label">jan+<br>alasa</span></div>
+        <div class="word">jan+ale<br><span class="hidden label">jan+<br>ale</span></div>
+        <div class="word">jan+ante<br><span class="hidden label">jan+<br>ante</span></div>
+        <div class="word">jan+ike<br><span class="hidden label">jan+<br>ike</span></div>
+        <div class="word">jan+lawa<br><span class="hidden label">jan+<br>lawa</span></div>
+        <div class="word">jan+lili<br><span class="hidden label">jan+<br>lili</span></div>
+        <div class="word">jan+monsuta<br><span class="hidden label">jan+<br>monsuta</span></div>
+        <div class="word">jan+mute<br><span class="hidden label">jan+<br>mute</span></div>
+        <div class="word">jan&mute<br><span class="hidden label">jan&<br>mute</span></div>
+        <div class="word">jan+nasa<br><span class="hidden label">jan+<br>nasa</span></div>
+        <div class="word">jan-ni<br><span class="hidden label">jan-<br>ni</span></div>
+        <div class="word">jan+olin<br><span class="hidden label">jan+<br>olin</span></div>
+        <div class="word">jan+olin02<br><span class="hidden label">jan+<br>olin02</span></div>
+        <div class="word">jan+pali<br><span class="hidden label">jan+<br>pali</span></div>
+        <div class="word">jan+poka<br><span class="hidden label">jan+<br>poka</span></div>
+        <div class="word">jan+pona<br><span class="hidden label">jan+<br>pona</span></div>
+        <div class="word">jan+sama<br><span class="hidden label">jan+<br>sama</span></div>
+        <div class="word">jan+seme<br><span class="hidden label">jan+<br>seme</span></div>
+        <div class="word">jan+sewi<br><span class="hidden label">jan+<br>sewi</span></div>
+        <div class="word">jan+sewi01<br><span class="hidden label">jan+<br>sewi01</span></div>
+        <div class="word">jan+sin<br><span class="hidden label">jan+<br>sin</span></div>
+        <div class="word">jan+sona<br><span class="hidden label">jan+<br>sona</span></div>
+        <div class="word">jan+suli<br><span class="hidden label">jan+<br>suli</span></div>
+        <div class="word">jan+suwi<br><span class="hidden label">jan+<br>suwi</span></div>
+        <div class="word">jan+toki<br><span class="hidden label">jan+<br>toki</span></div>
+        <div class="word">jan+tonsi<br><span class="hidden label">jan+<br>tonsi</span></div>
+        <div class="word">jan+tu<br><span class="hidden label">jan+<br>tu</span></div>
+        <div class="word">jan+wan<br><span class="hidden label">jan+<br>wan</span></div>
+        <div class="word">jan+wawa<br><span class="hidden label">jan+<br>wawa</span></div>
+        <div class="word">kala+ike<br><span class="hidden label">kala+<br>ike</span></div>
+        <div class="word">kala+lili<br><span class="hidden label">kala+<br>lili</span></div>
+        <div class="word">kala-lili<br><span class="hidden label">kala-<br>lili</span></div>
+        <div class="word">kala+pona<br><span class="hidden label">kala+<br>pona</span></div>
+        <div class="word">kalama&musi<br><span class="hidden label">kalama&<br>musi</span></div>
+        <div class="word">kuntu<br><span class="hidden label">kuntu</span></div>
+        <div class="word">kama-pona<br><span class="hidden label">kama-<br>pona</span></div>
+        <div class="word">kama-sona<br><span class="hidden label">kama-<br>sona</span></div>
+        <div class="word">kama&tawa<br><span class="hidden label">kama&<br>tawa</span></div>
+        <div class="word">kasi-ala<br><span class="hidden label">kasi-<br>ala</span></div>
+        <div class="word">kasi&ala<br><span class="hidden label">kasi&<br>ala</span></div>
+        <div class="word">kasi-jelo<br><span class="hidden label">kasi-<br>jelo</span></div>
+        <div class="word">kasi-kule<br><span class="hidden label">kasi-<br>kule</span></div>
+        <div class="word">kasi--laso<br><span class="hidden label">kasi-<br>-<br>laso</span></div>
+        <div class="word">kaso-lili<br><span class="hidden label">kaso-<br>lili</span></div>
+        <div class="word">kasi-loje<br><span class="hidden label">kasi-<br>loje</span></div>
+        <div class="word">kasi-pimeja<br><span class="hidden label">kasi-<br>pimeja</span></div>
+        <div class="word">kasi-walo<br><span class="hidden label">kasi-<br>walo</span></div>
+        <div class="word">kasi&mute<br><span class="hidden label">kasi&<br>mute</span></div>
+        <div class="word">laso-kasi<br><span class="hidden label">laso-<br>kasi</span></div>
+        <div class="word">laso-sewi<br><span class="hidden label">laso-<br>sewi</span></div>
+        <div class="word">laso-sewi01<br><span class="hidden label">laso-<br>sewi01</span></div>
+        <div class="word">laso-telo<br><span class="hidden label">laso-<br>telo</span></div>
+        <div class="word">linja-lili<br><span class="hidden label">linja-<br>lili</span></div>
+        <div class="word">linja-pona<br><span class="hidden label">linja-<br>pona</span></div>
+        <div class="word">linja-sike<br><span class="hidden label">linja-<br>sike</span></div>
+        <div class="word">linja-suwi<br><span class="hidden label">linja-<br>suwi</span></div>
+        <div class="word">lipu+kule<br><span class="hidden label">lipu+<br>kule</span></div>
+        <div class="word">lipu+mute<br><span class="hidden label">lipu+<br>mute</span></div>
+        <div class="word">lipu&mute<br><span class="hidden label">lipu&<br>mute</span></div>
+        <div class="word">lipu+sona<br><span class="hidden label">lipu+<br>sona</span></div>
+        <div class="word">luka+luka<br><span class="hidden label">luka+<br>luka</span></div>
+        <div class="word">lipu+tenpo<br><span class="hidden label">lipu+<br>tenpo</span></div>
+        <div class="word">lipu&tenpo<br><span class="hidden label">lipu&<br>tenpo</span></div>
+        <div class="word">ma-ale<br><span class="hidden label">ma-<br>ale</span></div>
+        <div class="word">ma-pona<br><span class="hidden label">ma-<br>pona</span></div>
+        <div class="word">ma-kasi<br><span class="hidden label">ma-<br>kasi</span></div>
+        <div class="word">ma-kili<br><span class="hidden label">ma-<br>kili</span></div>
+        <div class="word">ma-mi<br><span class="hidden label">ma-<br>mi</span></div>
+        <div class="word">ma-ni<br><span class="hidden label">ma-<br>ni</span></div>
+        <div class="word">ma-ike<br><span class="hidden label">ma-<br>ike</span></div>
+        <div class="word">ma-tomo<br><span class="hidden label">ma-<br>tomo</span></div>
+        <div class="word">ni&ala<br><span class="hidden label">ni&<br>ala</span></div>
+        <div class="word">omen<br><span class="hidden label">omen</span></div>
+        <div class="word">palisa+pan<br><span class="hidden label">palisa+<br>pan</span></div>
+        <div class="word">pilin+ala<br><span class="hidden label">pilin+<br>ala</span></div>
+        <div class="word">pilin&ala<br><span class="hidden label">pilin&<br>ala</span></div>
+        <div class="word">pilin+ike<br><span class="hidden label">pilin+<br>ike</span></div>
+        <div class="word">pilin+monsuta<br><span class="hidden label">pilin+<br>monsuta</span></div>
+        <div class="word">pilin+nasa<br><span class="hidden label">pilin+<br>nasa</span></div>
+        <div class="word">pilin&pakala<br><span class="hidden label">pilin&<br>pakala</span></div>
+        <div class="word">pilin+pona<br><span class="hidden label">pilin+<br>pona</span></div>
+        <div class="word">pini&ala<br><span class="hidden label">pini&<br>ala</span></div>
+        <div class="word">poki&tona<br><span class="hidden label">poki&<br>tona</span></div>
+        <div class="word">tona<br><span class="hidden label">tona</span></div>
+        <div class="word">pona-ala<br><span class="hidden label">pona-<br>ala</span></div>
+        <div class="word">pona&ala<br><span class="hidden label">pona&<br>ala</span></div>
+        <div class="word">pona-lili<br><span class="hidden label">pona-<br>lili</span></div>
+        <div class="word">pona-lukin<br><span class="hidden label">pona-<br>lukin</span></div>
+        <div class="word">pona-mute<br><span class="hidden label">pona-<br>mute</span></div>
+        <div class="word">sitelen-ike<br><span class="hidden label">sitelen-<br>ike</span></div>
+        <div class="word">sitelen-lili<br><span class="hidden label">sitelen-<br>lili</span></div>
+        <div class="word">sitelen-pona<br><span class="hidden label">sitelen-<br>pona</span></div>
+        <div class="word">sitelen+pona<br><span class="hidden label">sitelen+<br>pona</span></div>
+        <div class="word">sitelen-sitelen<br><span class="hidden label">sitelen-<br>sitelen</span></div>
+        <div class="word">sitelen-suwi<br><span class="hidden label">sitelen-<br>suwi</span></div>
+        <div class="word">sitelen-tawa<br><span class="hidden label">sitelen-<br>tawa</span></div>
+        <div class="word">tomo&mute<br><span class="hidden label">tomo&<br>mute</span></div>
+        <div class="word">tomo-ni<br><span class="hidden label">tomo-<br>ni</span></div>
+        <div class="word">tomo+sona<br><span class="hidden label">tomo+<br>sona</span></div>
+        <div class="word">tomo+tawa<br><span class="hidden label">tomo+<br>tawa</span></div>
+        <div class="word">tomo+telo<br><span class="hidden label">tomo+<br>telo</span></div>
+        <div class="word">kasi2<br><span class="hidden label">kasi2</span></div>
+        <div class="word">akesi01<br><span class="hidden label">akesi01</span></div>
+        <div class="word">poni<br><span class="hidden label">poni</span></div>
+        <div class="word">Kita<br><span class="hidden label">Kita</span></div>
+        <div class="word">Keli<br><span class="hidden label">Keli</span></div>
+        <div class="word">tasun<br><span class="hidden label">tasun</span></div>
+        <div class="word">tasun1<br><span class="hidden label">tasun1</span></div>
+        <div class="word">tasun2<br><span class="hidden label">tasun2</span></div>
+        <div class="word">tasun3<br><span class="hidden label">tasun3</span></div>
+        <div class="word">penpo<br><span class="hidden label">penpo</span></div>
+        <div class="word">tenpo-ni<br><span class="hidden label">tenpo-<br>ni</span></div>
+        <div class="word">kisa<br><span class="hidden label">kisa</span></div>
+        <div class="word">nja<br><span class="hidden label">nja</span></div>
+        <div class="word">lape02<br><span class="hidden label">lape02</span></div>
+        <div class="word">api<br><span class="hidden label">api</span></div>
+        <div class="word">omekapo01<br><span class="hidden label">omekapo01</span></div>
+        <div class="word">omekapo<br><span class="hidden label">omekapo</span></div>
+        <div class="word">omekalike<br><span class="hidden label">omekalike</span></div>
+        <div class="word">Koko<br><span class="hidden label">Koko</span></div>
+        <div class="word">Koko&uta<br><span class="hidden label">Koko&<br>uta</span></div>
+        <div class="word">uta02<br><span class="hidden label">uta02</span></div>
+        <div class="word">Pijuku<br><span class="hidden label">Pijuku</span></div>
+        <div class="word">kala&suno&lili<br><span class="hidden label">kala&<br>suno&<br>lili</span></div>
+        <div class="word">tenpo-suno<br><span class="hidden label">tenpo-<br>suno</span></div>
+        <div class="word">Lepeka<br><span class="hidden label">Lepeka</span></div>
+        <div class="word">Lepeka&uta<br><span class="hidden label">Lepeka&<br>uta</span></div>
+        <div class="word">kule&ala<br><span class="hidden label">kule&<br>ala</span></div>
+        <div class="word">Tonpite<br><span class="hidden label">Tonpite</span></div>
+        <div class="word">misikeke02<br><span class="hidden label">misikeke02</span></div>
+        <div class="word">kokosila2<br><span class="hidden label">kokosila2</span></div>
+        <div class="word">Pensa<br><span class="hidden label">Pensa</span></div>
+        <div class="word">nano<br><span class="hidden label">nano</span></div>
+        <div class="word">lipamanka<br><span class="hidden label">lipamanka</span></div>
+        <div class="word">Enki<br><span class="hidden label">Enki</span></div>
+        <div class="word">Ipan<br><span class="hidden label">Ipan</span></div>
+        <div class="word">silapa<br><span class="hidden label">silapa</span></div>
+        <div class="word">silapa1<br><span class="hidden label">sila&shy;pa1</span></div>
+        <div class="word">silapa2<br><span class="hidden label">sila&shy;pa2</span></div>
+        <div class="word">silapa3<br><span class="hidden label">sila&shy;pa3</span></div>
+        <div class="word">Itan<br><span class="hidden label">Itan</span></div>
+        <div class="word">Seka<br><span class="hidden label">Seka</span></div>
+        <div class="word">u<br><span class="hidden label">u</span></div>
+        <div class="word">sijelo2<br><span class="hidden label">sijelo2</span></div>
+        <div class="word">u2<br><span class="hidden label">u2</span></div>
+        <div class="word">xu<br><span class="hidden label">xu</span></div>
+        <div class="word">ju<br><span class="hidden label">ju</span></div>
+        <div class="word">yupekosi<br><span class="hidden label">yupekosi</span></div>
+        <div class="word">iseki<br><span class="hidden label">iseki</span></div>
+        <div class="word">jami<br><span class="hidden label">jami</span></div>
+        <div class="word">awase<br><span class="hidden label">awase</span></div>
+        <div class="word">sewi01<br><span class="hidden label">sewi01</span></div>
+        <div class="word">sinpin02<br><span class="hidden label">sinpin02</span></div>
+        <div class="word">monsi02<br><span class="hidden label">monsi02</span></div>
+        <div class="word">mu(<br><span class="hidden label">mu(</span></div>
+        <div class="word">)mu<br><span class="hidden label">)mu</span></div>
+        <div class="word">olin02<br><span class="hidden label">olin02</span></div>
+        <div class="word">olin01<br><span class="hidden label">olin01</span></div>
+        <div class="word">pana2<br><span class="hidden label">pana2</span></div>
+        <div class="word">mu2<br><span class="hidden label">mu2</span></div>
+        <div class="word">!<br><span class="hidden label">!</span></div>
+        <div class="word">kijesankalu<br><span class="hidden label">kijesankalu</span></div>
+        <div class="word">Silawi<br><span class="hidden label">Silawi</span></div>
+        <div class="word">toki+pona<br><span class="hidden label">toki+<br>pona</span></div>
+        <div class="word">supa-moku<br><span class="hidden label">supa-<br>moku</span></div>
+        <div class="word">towoki<br><span class="hidden label">towoki</span></div>
+        <div class="word">towoki&uta<br><span class="hidden label">towoki&<br>uta</span></div>
+        <div class="word">mute02<br><span class="hidden label">mute02</span></div>
+        <div class="word">wasoweli<br><span class="hidden label">waso&shy;weli</span></div>
+        <div class="word">jule<br><span class="hidden label">jule</span></div>
+        <div class="word">r<br><span class="hidden label">r</span></div>
+        <div class="word">wa<br><span class="hidden label">wa</span></div>
+        <div class="word">wa2<br><span class="hidden label">wa2</span></div>
+        <div class="word">enta<br><span class="hidden label">enta</span></div>
+        <div class="word">pipi2<br><span class="hidden label">pipi2</span></div>
+        <div class="word">pipi2-tawa<br><span class="hidden label">pipi2-<br>tawa</span></div>
+        <div class="word">wekama<br><span class="hidden label">wekama</span></div>
+        <div class="word">loje-jelo<br><span class="hidden label">loje-<br>jelo</span></div>
+        <div class="word">kan<br><span class="hidden label">kan</span></div>
+        <div class="word">owe<br><span class="hidden label">owe</span></div>
+        <div class="word">jupi<br><span class="hidden label">jupi</span></div>
+        <div class="word">rar<br><span class="hidden label">rar</span></div>
+        <div class="word">Pingo<br><span class="hidden label">Pingo</span></div>
+        <div class="word">Majeka<br><span class="hidden label">Majeka</span></div>
+        <div class="word">supa-lape<br><span class="hidden label">supa-<br>lape</span></div>
+        <div class="word">ete<br><span class="hidden label">ete</span></div>
+        <div class="word">eliki<br><span class="hidden label">eliki</span></div>
+        <div class="word">mention<br><span class="hidden label">mention</span></div>
+        <div class="word">oki<br><span class="hidden label">oki</span></div>
+        <div class="word">waleja<br><span class="hidden label">waleja</span></div>
+        <div class="word">kama&wawa<br><span class="hidden label">kama&<br>wawa</span></div>
+        <div class="word">kolo<br><span class="hidden label">kolo</span></div>
+        <div class="word">Manka<br><span class="hidden label">Manka</span></div>
+        <div class="word">Sipiki<br><span class="hidden label">Sipiki</span></div>
+        <div class="word">lokon<br><span class="hidden label">lokon</span></div>
+        <div class="word">kapesi<br><span class="hidden label">kapesi</span></div>
+        <div class="word">unu<br><span class="hidden label">unu</span></div>
+        <div class="word">nalanja<br><span class="hidden label">nalanja</span></div>
+        <div class="word">luka&luka<br><span class="hidden label">luka&<br>luka</span></div>
+        <div class="word">luka-luka<br><span class="hidden label">luka-<br>luka</span></div>
+        <div class="word">luka&luka&luka<br><span class="hidden label">luka&<br>luka&<br>luka</span></div>
+        <div class="word">wawa&tenpo<br><span class="hidden label">wawa&<br>tenpo</span></div>
+        <div class="word">tu&wan<br><span class="hidden label">tu&<br>wan</span></div>
+        <div class="word">tu&tu<br><span class="hidden label">tu&<br>tu</span></div>
+        <div class="word">kulupu-poki<br><span class="hidden label">kulupu-<br>poki</span></div>
+        <div class="word">|<br><span class="hidden label"> </span></div>
+        <div class="word">mpptp<br><span class="hidden label">mpptp</span></div>
+        <div class="word">mpns<br><span class="hidden label">mpns</span></div>
+        <div class="word">mpns2<br><span class="hidden label">mpns2</span></div>
+        <div class="word">nasin-sitelen<br><span class="hidden label">nasin-<br>sitelen</span></div>
+        <div class="word">wuwojiti<br><span class="hidden label">wuwojiti</span></div>
+        <div class="word">peto<br><span class="hidden label">peto</span></div>
+        <div class="word">misa<br><span class="hidden label">misa</span></div>
+        <div class="word">siliwa<br><span class="hidden label">siliwa</span></div>
+        <div class="word">tiu<br><span class="hidden label">tiu</span></div>
+        <div class="word">alu<br><span class="hidden label">alu</span></div>
+        <div class="word">taki<br><span class="hidden label">taki</span></div>
+        <div class="word">pika<br><span class="hidden label">pika</span></div>
+        <div class="word">pake<br><span class="hidden label">pake</span></div>
+        <div class="word">powe<br><span class="hidden label">powe</span></div>
+        <div class="word">?<br><span class="hidden label">?</span></div>
+        <div class="word">Josuta<br><span class="hidden label">Josuta</span></div>
+        <div class="word">tenpo02<br><span class="hidden label">tenpo02</span></div>
+        <div class="word">juna<br><span class="hidden label">juna</span></div>
+        <div class="word">musitenpike<br><span class="hidden label">musitenpike</span></div>
+        <div class="word">moli02<br><span class="hidden label">moli02</span></div>
+        <div class="word">jan&usawi<br><span class="hidden label">jan&<br>usawi</span></div>
+        <div class="word">Ketami<br><span class="hidden label">Ketami</span></div>
+        <div class="word">melome<br><span class="hidden label">me&shy;lome</span></div>
+        <div class="word">mijomi<br><span class="hidden label">mijomi</span></div>
+        <div class="word">0<br><span class="hidden label">0</span></div>
+        <div class="word">1<br><span class="hidden label">1</span></div>
+        <div class="word">2<br><span class="hidden label">2</span></div>
+        <div class="word">3<br><span class="hidden label">3</span></div>
+        <div class="word">ke<br><span class="hidden label">ke</span></div>
+        <div class="word">|<br><span class="hidden label"> </span></div>
+        <div class="word">wa~<br><span class="hidden label">wa~</span></div>
+        <div class="word">Masewin<br><span class="hidden label">Masewin</span></div>
+        <div class="word">Suko<br><span class="hidden label">Suko</span></div>
+        <div class="word">mute&ante<br><span class="hidden label">mute&<br>ante</span></div>
+        <div class="word">Jomo<br><span class="hidden label">Jomo</span></div>
+        <div class="word">jonke<br><span class="hidden label">jonke</span></div>
+        <div class="word">nimisin<br><span class="hidden label">nimisin</span></div>
+        <div class="word">likujo<br><span class="hidden label">likujo</span></div>
+        <div class="word">oke<br><span class="hidden label">oke</span></div>
+        <div class="word">puwa<br><span class="hidden label">puwa</span></div>
+        <div class="word">*<br><span class="hidden label">*</span></div>
+        <div class="word">**<br><span class="hidden label">**</span></div>
+        <div class="word">sama&ala<br><span class="hidden label">sama&<br>ala</span></div>
+        <div class="word">nasin&nanpa<br><span class="hidden label">nasin&<br>nanpa</span></div>
+        <div class="word">anpa-nanpa<br><span class="hidden label">anpa-<br>nanpa</span></div>
+        <div class="word">anpa-sewi<br><span class="hidden label">anpa-<br>sewi</span></div>
+        <div class="word">~<br><span class="hidden label">~</span></div>
+        <div class="word">telo+lete<br><span class="hidden label">telo+<br>lete</span></div>
+        <div class="word">sona+pona<br><span class="hidden label">sona+<br>pona</span></div>
+        <div class="word">jaki2<br><span class="hidden label">jaki2</span></div>
+        <div class="word">konwe<br><span class="hidden label">konwe</span></div>
+        <div class="word">aaanu<br><span class="hidden label">aaanu</span></div>
+        <div class="word">sememail<br><span class="hidden label">sememail</span></div>
+        <div class="word">mahjong<br><span class="hidden label">mahjong</span></div>
+        <div class="word">kulijo<br><span class="hidden label">kulijo</span></div>
+        <div class="word">pokasi<br><span class="hidden label">pokasi</span></div>
+        <div class="word">polinpin<br><span class="hidden label">polinpin</span></div>
+        <div class="word">kalijopilale<br><span class="hidden label">kalijopilale</span></div>
+        <div class="word">kana<br><span class="hidden label">kana</span></div>
+        <div class="word">kapa<br><span class="hidden label">kapa</span></div>
+        <div class="word">waken<br><span class="hidden label">waken</span></div>
+        <div class="word">sutopatikuna<br><span class="hidden label">sutopatikuna</span></div>
+        <div class="word">nilikalanen<br><span class="hidden label">nilikalanen</span></div>
+        <div class="word">a~<br><span class="hidden label">a~</span></div>
+        <div class="word">n~<br><span class="hidden label">n~</span></div>
+        <div class="word">n2<br><span class="hidden label">n2</span></div>
+        <div class="word">n2~<br><span class="hidden label">n2~</span></div>
+        <div class="word">awa<br><span class="hidden label">awa</span></div>
+        <div class="word">a&seme<br><span class="hidden label">a&<br>seme</span></div>
+        <div class="word">n&seme<br><span class="hidden label">n&<br>seme</span></div>
+        <div class="word">n2&seme<br><span class="hidden label">n2&<br>seme</span></div>
+        <div class="word">ojuta<br><span class="hidden label">ojuta</span></div>
+        <div class="word">tan&seme<br><span class="hidden label">tan&<br>seme</span></div>
+        <div class="word">tan&ni<br><span class="hidden label">tan&<br>ni</span></div>
+        <div class="word">ssk<br><span class="hidden label">ssk</span></div>
+</div>
+</span>
+
+<p class="license-and-checkbox">
+    <span>License: <a href='https://creativecommons.org/publicdomain/zero/1.0/'>CC0-1.0</a></span>
+    <span><input type="checkbox" id="labelsCheckbox" onchange="toggleLabels()" class="checkbox"><label for="labelsCheckbox" class="checkbox">Label glyphs</label></span>
+</p>
+
+<span class="tp">
+<textarea class="tp" title="sina ken pana-wile e kulupu&sitelen lon insa pi(poki niv<)">sina ken pana-wile e kulupu&sitelen lon insa pi(poki niv<)
+
+</textarea>
+</span>
+
+<span class="tp">
+<span style="white-space: break-spaces">
+<!-- telo oko li ken ante e pilin, by jan Ke Tami -->
+toki ni li kepeken nimi pu ale
+
+telo oko li ken ante e pilin
+tan jan [kiwen en] [tomo anu mi insa]:
+
+| telo li kama
+| | | tan oko loje tu pi(jan wan)
+| | li sitelen sike suwi
+| | | lon anpa sinpin
+| ona li wile tawa ma
+taso ona li awen lon sijelo
+| | li pini
+| | | lon len
+| | li weka
+sona la
+| waso en kala en pipi
+| en akesi en soweli ale li ken pana sama
+taso pilin pi(jan ni) li suli la
+| | | | | | | telo lukin li sin
+| | | | | | | | | li wawa
+| | | | | | | | | li selo e ijo poka
+| | | | | | | | | | | e tomo e noka e supa moku
+| | | | | | | | | | | e pan e poki kiwen e monsi
+| | | | | | | | | | | e luka e lawa e nena
+| | | | | | | | | | | e kute e linja sewi kin
+laso lete ni li lili e seli insa
+| | | li lape e ike toki
+| | | li open e ante
+| | | li esun e ko jaki | | | | | te a
+| | | | | e mu open | | | | | | ike a to
+
+kon pi(kule ala) li tan uta
+| | | | li kalama utala lon telo
+| | | | li nanpa mute
+| | | | li tawa mun
+| | | | li pakala nasa e suno sewi
+pimeja moli li kama namako e nasin tenpo | | | | | te mi pakala to
+
+
+pona o kepeken alasa seme
+| mani anu unpa
+anu pu anu nimi ante li sama kili
+| | | | | | tan kasi pi(lipu jelo moli)
+te sina wile ala ni
+| sina wile mama e musi
+| sina wile olin e meli
+| | | | e mije e tonsi to | | | | | ona li jo e ilo palisa
+| | | | | | | | | | | | | | | | | e sinpin tomo
+| | | | | | | | | | | | | | | li pali e lupa
+| | | | | | | | | | | | | | telo li kama weka
+| | | | | | | | | | | | | | laso li kama walo
+| | | | | | | | | | | | | | jan li tawa lupa
+| | | | | | | | | | | | | | | li tawa nasin open
+| | | | | | | | | | | | | | | li tawa kulupu
+| | | | | | | | | | | | | pona kama li wile e wawa
+| | | | | | | | | | | | taso laso weka li kama ken e ni
+
+
+</span></span>
+
+<script>
+/*  workaround for Chromium
+
+    Chrome has a bug where ligatures aren't properly applied at typing-time.
+    for example, if you type "pona", it erroneously shows a p followed by a sideways 6, rather than one smile.
+    i work around this by refreshing the textarea after every keystroke.
+    i refresh the textarea by changing one property, back and forth between two values that will result in the same appearance on most modern devices.
+*/
+
+const textarea = document.querySelector('textarea');
+var cssToggle = false;
+
+textarea.addEventListener('input', redrawTextarea);
+
+function redrawTextarea(e) {
+  if (cssToggle) {
+    textarea.style.fontVariantLigatures = 'normal';
+    cssToggle = false;
+  } else {
+    textarea.style.fontVariantLigatures = 'common-ligatures';
+    cssToggle = true;
+  }
+}
+
+
+
+function toggleLabels() {
+  const labels = document.querySelectorAll('.label');
+  const labelGlyphsCheckbox = document.getElementById('labelsCheckbox');
+
+  labels.forEach(label => {
+    if (labelGlyphsCheckbox.checked) {
+      label.classList.remove('hidden');
+    } else {
+      label.classList.add('hidden');
+    }
+  });
+}
+</script>
